@@ -42,7 +42,7 @@ void IDrawObject::ActiveAttribute(const char* attribute, GLint size , GLenum typ
 	}
 	else
 	{
-		LOG("\nCannot find attribute <%s> in shader <%d>", attribute, m_program);
+		LOG("\nCannot find attribute <%s> in program id: <%d>", attribute, m_program);
 	}
 }
 void IDrawObject::ActiveUniform(const char* uniform)

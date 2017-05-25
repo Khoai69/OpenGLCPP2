@@ -6,8 +6,8 @@
 
 std::queue<char> g_Keys;
 #define MAX_KEYS_PROCESS 10
-#define SCREEN_W 800
-#define SCREEN_H 600
+#define SCREEN_W 1024
+#define SCREEN_H 768
 #define ZOOM_FACTOR 0.01f
 GLfloat g_lastX = 0.0f, g_lastY = 0.0f;
 bool g_firstMouse = true;
