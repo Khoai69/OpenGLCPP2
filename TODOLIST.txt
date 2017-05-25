@@ -1,0 +1,8 @@
++ refactor effects
++ refactor model loading
++ refactor texture loading
++ refactor scene loading
++ refactor renderer
++ implement effects json
++ move effect uses to object
+divide effects as global effect or local
