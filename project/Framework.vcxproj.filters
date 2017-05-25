@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{80260b62-540f-45ca-b0ef-033d9e0f75bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{c643ecf0-8c95-4bf8-a836-cfe3012ae6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{2e9c1ce7-4af5-4d8a-85d3-3ceb8b5fd66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{d9cbcd04-b14d-489b-94b7-7e4b2b5943a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Utils">
+      <UniqueIdentifier>{42670be1-f618-4e4f-90ab-dcb49e99a160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Utils">
+      <UniqueIdentifier>{4531cb1b-35f4-4834-a63c-7b1e3f7d3c3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Texture.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\ShaderProgram.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Utils\ogles_sys.cpp">
+      <Filter>Source Files\Engine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Utils\TGA.cpp">
+      <Filter>Source Files\Engine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Mesh.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\IDrawObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Camera.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\ResourceManager.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\GenericObject.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\SceneManager.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Scene.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Skybox.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Fire.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Reflection.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Phong.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Normal.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Water.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Engine\Texture.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\ShaderProgram.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Utils\ogles_sys.h">
+      <Filter>Header Files\Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Utils\TGA.h">
+      <Filter>Header Files\Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Mesh.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\IDrawObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Camera.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\ResourceManager.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\GenericObject.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\SceneManager.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Scene.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Skybox.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Fire.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Reflection.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Phong.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Normal.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Water.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\shaders\fire.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\fire.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\generic.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\generic.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\skybox.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\skybox.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\reflection.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\reflection.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\phong.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\phong.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\normal.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\normal.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\water.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\data\shaders\water.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

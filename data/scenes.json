@@ -1,0 +1,123 @@
+[
+	{
+	  "name": "Scene1",
+	  "Objects": 
+      [
+        {
+			"Model": "Woman1",
+			"Texture": ["Woman1"],
+			"Program": "Generic",
+			"Position" : [-0.7, -1.0, 0.0],
+			"Rotation" : [0.0, -60.0, 0.0],
+			"Scale" : 	 [1.0, 1.0, 1.0]
+		},
+
+		{
+			"Model": "Woman2",
+			"Texture": ["Woman2"],
+			"Program": "Generic",
+			"Position" : [0.7, -1.0, 0.0],
+			"Rotation" : [0.0, 60.0, 0.0],
+			"Scale" : 	 [1.0, 1.0, 1.0]
+		},
+		{
+			"Model": "Woman2",
+			"Texture": ["Woman2"],
+			"Program": "Generic",
+			"Position" : [1.7, -1.0, 1.0],
+			"Rotation" : [0.0, 70.0, 0.0],
+			"Scale" : 	 [1.0, 1.0, 1.0]
+		},
+		{
+			"Model": "Woman2",
+			"Texture": ["Woman2"],
+			"Program": "Generic",
+			"Position" : [-1.7, -1.0, 1.0],
+			"Rotation" : [0.0, 250.0, 0.0],
+			"Scale" : 	 [1.0, 1.0, 1.0]
+		},
+		{
+			"Model": "Woman2",
+			"Texture": ["Woman2"],
+			"Program": "phong",
+			"Position" : [0.0, 0.0, 0.0],
+			"Rotation" : [0.0, 150.0, 0.0],
+			"Scale" : 	 [1.0, 1.0, 1.0]
+		},
+		{
+			"Model": "skybox",
+			"Texture": ["skybox"],
+			"Program": "skybox",
+			"Position" : [0.0, 0.0, 0.0],
+			"Rotation" : [0.0, 0.0, 0.0],
+			"Scale" : 	  [50.0, 50.0, 50.0]
+		},
+
+
+
+		{
+			"Model": "Bila",
+			"Texture": ["skybox"],
+			"Program": "reflection",
+			"Position" : [0.0, 1.0, 0.0],
+			"Rotation" : [0.0, 0.0, 0.0],
+			"Scale" : 	  [0.01, 0.01, 0.01]
+		},
+		{
+			"Model": "water",
+			"Texture": ["Rock", "Rock_normal"],
+			"Program": "normal",
+			"Position" :[0.0, -1.0, -4.0],
+			"Rotation" : [0.0, 0.0, 0.0],
+			"Scale" : 	 [0.5, 0.5, 0.5]
+		},
+    {
+			"Model": "water",
+			"Texture": ["Rock", "Water_normal","fire-disp", "skybox"],
+			"Program": "water",
+			"Position" :[0.0, -10.0, 0.0],
+			"Rotation" : [0.0, 0.0, 0.0],
+			"Scale" : 	 [2.0, 2.0, 2.0]
+		},
+    {
+			"Model": "fire",
+			"Texture": ["fire","fire-disp", "fire-mask"],
+			"Program": "fire",
+			"Position" : [0.7, -2.0, 0.0],
+			"Rotation" : [0.0, 0.0, 0.0],
+			"Scale" : 	  [0.1, 0.1, 0.1]
+		},
+    {
+			"Model": "fire",
+			"Texture": ["fire","fire-disp", "fire-mask"],
+			"Program": "fire",
+			"Position" : [-0.7, -2.0, 0.0],
+			"Rotation" : [0.0, 0.0, 0.0],
+			"Scale" : 	  [0.1, 0.1, 0.1]
+		}
+	  ],
+	  
+	  "Camera":[
+		{
+			"name": "Cam01",
+			"pos" : [0.0, 0.0, 4.0],
+			"near" : 0.001,
+			"far" :  1000.0,
+			"fov":   45,
+			"speed" : 10.0,
+			"default" : true
+		},
+		{
+			"name": "Cam02",
+			"pos" : [0.0, 0.0, 0.0],
+			"near" : 0.001,
+			"far" :  1000.0,
+			"fov":   45,
+			"speed" : 10.0,
+			"default" : false
+		}
+	  ],
+	  "default" : true
+	}
+]
+

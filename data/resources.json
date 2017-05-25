@@ -1,0 +1,124 @@
+{
+	"Texture": [
+	{
+		"id": "Woman1",
+		"type": "2d",
+		"path": "textures\\Woman1.tga"
+	},
+	{
+		"id": "Woman2",
+		"type": "2d",
+		"path": "textures\\Woman2.tga"
+	},
+	{
+		"id": "Rock",
+		"type": "2d",
+		"path": "textures\\Rock.tga"
+	},
+	{
+		"id": "Rock_normal",
+		"type": "2d",
+		"path": "textures\\Rock_normal.tga"
+	},
+  {
+		"id": "Water_normal",
+		"type": "2d",
+		"path": "textures\\WaterNormal.tga"
+	},
+  
+  {
+		"id": "skybox",
+		"type": "cubemap",
+		"path": [
+				"textures\\skyboxes\\sky\\Skybox_face0.tga",
+				"textures\\skyboxes\\sky\\Skybox_face1.tga",
+				"textures\\skyboxes\\sky\\Skybox_face2.tga",
+				"textures\\skyboxes\\sky\\Skybox_face3.tga",
+				"textures\\skyboxes\\sky\\Skybox_face4.tga",
+				"textures\\skyboxes\\sky\\Skybox_face5.tga"
+				]
+	},
+  
+	{
+		"id": "fire",
+		"type": "2d",
+		"path": "textures\\Fire.tga"
+	},
+	{
+		"id": "fire-disp",
+		"type": "2d",
+		"path": "textures\\Fire_disp.tga"
+	},
+	{
+		"id": "fire-mask",
+		"type": "2d",
+		"path": "textures\\Fire_mask.tga"
+	}
+	],
+  
+	"Program": [
+	{
+		"id": "Generic",
+		"Fragment": "shaders\\generic.fs",
+		"Vertex": "shaders\\generic.vs"
+	},
+  {
+		"id": "skybox",
+		"Fragment": "shaders\\skybox.fs",
+		"Vertex": "shaders\\skybox.vs"
+	},
+	{
+		"id": "fire",
+		"Fragment": "shaders\\fire.fs",
+		"Vertex": "shaders\\fire.vs"
+	},
+	{
+		"id": "reflection",
+		"Fragment": "shaders\\reflection.fs",
+		"Vertex": "shaders\\reflection.vs"
+	},
+	{
+		"id": "phong",
+		"Fragment": "shaders\\phong.fs",
+		"Vertex": "shaders\\phong.vs"
+	},
+	{
+		"id": "normal",
+		"Fragment": "shaders\\normal.fs",
+		"Vertex": "shaders\\normal.vs"
+	},
+  {
+		"id": "water",
+		"Fragment": "shaders\\water.fs",
+		"Vertex": "shaders\\water.vs"
+	}
+	],
+  
+	"Model": [
+	{
+		"id": "Woman1",
+		"path": "models\\Woman1.nfg"
+	},
+	{
+		"id": "Woman2",
+		"path": "models\\Woman2.nfg"
+	},
+	{
+		"id": "skybox",
+		"path": "models\\SkyBox.nfg"
+	},
+	{
+		"id": "fire",
+		"path": "models\\fire.nfg"
+	},
+
+	{
+		"id": "Bila",
+		"path": "models\\Bila.nfg"
+	},
+	{
+		"id": "water",
+		"path": "models\\water.nfg"
+	}
+	]
+}
